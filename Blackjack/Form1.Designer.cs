@@ -41,6 +41,8 @@
             btnReiniciar = new Button();
             btnParar = new Button();
             btnPedirCarta = new Button();
+            pbCartaDealer3 = new PictureBox();
+            pbCartaDealer4 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pbCartaDealer1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbCartaJogador1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbCartaDealer2).BeginInit();
@@ -48,6 +50,8 @@
             ((System.ComponentModel.ISupportInitialize)pbCartaJogador3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbCartaJogador4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbCartaJogador5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbCartaDealer3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbCartaDealer4).BeginInit();
             SuspendLayout();
             // 
             // lblPontosDealer
@@ -168,6 +172,24 @@
             btnPedirCarta.UseVisualStyleBackColor = true;
             btnPedirCarta.Click += btnPedirCarta_Click;
             // 
+            // pbCartaDealer3
+            // 
+            pbCartaDealer3.Location = new Point(118, 61);
+            pbCartaDealer3.Name = "pbCartaDealer3";
+            pbCartaDealer3.Size = new Size(141, 213);
+            pbCartaDealer3.SizeMode = PictureBoxSizeMode.Zoom;
+            pbCartaDealer3.TabIndex = 12;
+            pbCartaDealer3.TabStop = false;
+            // 
+            // pbCartaDealer4
+            // 
+            pbCartaDealer4.Location = new Point(157, 61);
+            pbCartaDealer4.Name = "pbCartaDealer4";
+            pbCartaDealer4.Size = new Size(141, 213);
+            pbCartaDealer4.SizeMode = PictureBoxSizeMode.Zoom;
+            pbCartaDealer4.TabIndex = 13;
+            pbCartaDealer4.TabStop = false;
+            // 
             // frmJogo
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -187,6 +209,8 @@
             Controls.Add(pbCartaDealer1);
             Controls.Add(lblPontosJogador);
             Controls.Add(lblPontosDealer);
+            Controls.Add(pbCartaDealer3);
+            Controls.Add(pbCartaDealer4);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "frmJogo";
             Text = "Blackjack";
@@ -197,6 +221,8 @@
             ((System.ComponentModel.ISupportInitialize)pbCartaJogador3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbCartaJogador4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbCartaJogador5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbCartaDealer3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbCartaDealer4).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -215,5 +241,7 @@
         private Button btnReiniciar;
         private Button btnParar;
         private Button btnPedirCarta;
+        private PictureBox pbCartaDealer3;
+        private PictureBox pbCartaDealer4;
     }
 }

@@ -83,6 +83,8 @@
             pbCartaJogador5.Image = null;
             pbCartaDealer1.Image = null;
             pbCartaDealer2.Image = null;
+            pbCartaDealer3.Image = null;
+            pbCartaDealer4.Image = null;
 
             lblPontosJogador.Text = "Pontos Jogador: 0";
             lblPontosDealer.Text = "Pontos Dealer: ?";
@@ -133,25 +135,36 @@
             cartasDealer.Add(carta);
             pontosDealer = CalcularPontos(cartasDealer);
 
-            // Se for a primeira carta do dealer, mostramos normalmente
+            // Se for a primeira carta do dealer mostra normalmente
             if (cartasDealer.Count == 1)
             {
                 pbCartaDealer1.Image = Image.FromFile(carta.Imagem);
             }
             else if (cartasDealer.Count == 2 && cartaViradaDealer)
             {
-                // A segunda carta do dealer come�a virada para baixo
+                // A segunda carta do dealer começa virada para baixo
                 pbCartaDealer2.Image = Image.FromFile("Resources/carta.png");
+                pbCartaDealer2.BringToFront();
+            }
+            else if (cartasDealer.Count == 3 )
+            {
+                pbCartaDealer3.Image = Image.FromFile(carta.Imagem);
+                pbCartaDealer3.BringToFront();
+            }
+            else if (cartasDealer.Count == 4)
+            {
+                pbCartaDealer4.Image = Image.FromFile(carta.Imagem);
+                pbCartaDealer4.BringToFront();
             }
 
-            // Atualizamos a pontuação apenas da primeira carta do dealer visivel
+            // Atualiza a pontuação apenas da primeira carta do dealer visivel
             if (!cartaViradaDealer)
             {
                 lblPontosDealer.Text = "Pontos Dealer: " + pontosDealer;
             }
             else
             {
-                // Apenas mostra o valor da primeira carta, como o jogador não sabe ainda o valor completo
+                // Mostra apenas o valor da primeira carta
                 lblPontosDealer.Text = "Pontos Dealer: ?";
             }
         }
@@ -161,7 +174,7 @@
             int pontos = cartas.Sum(c => c.Valor);
             int ases = cartas.Count(c => c.Valor == 11);
 
-            // Se tiver ás e a pontua��o ultrapassar 21, o ás vale 1
+            // Se tiver as e a pontuação ultrapassar 21, o as vale 1
             while (pontos > 21 && ases > 0)
             {
                 pontos -= 10;
@@ -184,7 +197,7 @@
 
         private void btnParar_Click(object sender, EventArgs e)
         {
-            // Revelar a segunda carta do dealer
+            // Revela a segunda carta do dealer
             cartaViradaDealer = false;
             pbCartaDealer2.Image = Image.FromFile(cartasDealer[1].Imagem);
             lblPontosDealer.Text = "Pontos Dealer: " + pontosDealer;
