@@ -1,0 +1,54 @@
+C:\Users\fabio\source\repos\Blackjack\Blackjack\bin\Debug\net8.0-windows\Blackjack.exe
+C:\Users\fabio\source\repos\Blackjack\Blackjack\bin\Debug\net8.0-windows\Blackjack.deps.json
+C:\Users\fabio\source\repos\Blackjack\Blackjack\bin\Debug\net8.0-windows\Blackjack.runtimeconfig.json
+C:\Users\fabio\source\repos\Blackjack\Blackjack\bin\Debug\net8.0-windows\Blackjack.dll
+C:\Users\fabio\source\repos\Blackjack\Blackjack\bin\Debug\net8.0-windows\Blackjack.pdb
+C:\Users\fabio\source\repos\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.csproj.GenerateResource.cache
+C:\Users\fabio\source\repos\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fabio\source\repos\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.AssemblyInfoInputs.cache
+C:\Users\fabio\source\repos\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.AssemblyInfo.cs
+C:\Users\fabio\source\repos\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.csproj.CoreCompileInputs.cache
+C:\Users\fabio\source\repos\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.dll
+C:\Users\fabio\source\repos\Blackjack\Blackjack\obj\Debug\net8.0-windows\refint\Blackjack.dll
+C:\Users\fabio\source\repos\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.pdb
+C:\Users\fabio\source\repos\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.genruntimeconfig.cache
+C:\Users\fabio\source\repos\Blackjack\Blackjack\obj\Debug\net8.0-windows\ref\Blackjack.dll
+C:\Users\fabio\source\repos\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.frmJogo.resources
+C:\Users\fabio\source\repos\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.Properties.Resources.resources
+C:\Users\fabio\source\repos\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.sourcelink.json
+C:\Users\fabio\OneDrive\Área de Trabalho\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.frmJogo.resources
+C:\Users\fabio\OneDrive\Área de Trabalho\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.Properties.Resources.resources
+C:\Users\fabio\OneDrive\Área de Trabalho\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.csproj.GenerateResource.cache
+C:\Users\fabio\OneDrive\Área de Trabalho\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fabio\OneDrive\Área de Trabalho\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.AssemblyInfoInputs.cache
+C:\Users\fabio\OneDrive\Área de Trabalho\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.AssemblyInfo.cs
+C:\Users\fabio\OneDrive\Área de Trabalho\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.csproj.CoreCompileInputs.cache
+C:\Users\fabio\OneDrive\Área de Trabalho\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.sourcelink.json
+C:\Users\fabio\OneDrive\Área de Trabalho\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.dll
+C:\Users\fabio\OneDrive\Área de Trabalho\Blackjack\Blackjack\obj\Debug\net8.0-windows\refint\Blackjack.dll
+C:\Users\fabio\OneDrive\Área de Trabalho\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.pdb
+C:\Users\fabio\OneDrive\Área de Trabalho\Blackjack\Blackjack\bin\Debug\net8.0-windows\Blackjack.exe
+C:\Users\fabio\OneDrive\Área de Trabalho\Blackjack\Blackjack\bin\Debug\net8.0-windows\Blackjack.deps.json
+C:\Users\fabio\OneDrive\Área de Trabalho\Blackjack\Blackjack\bin\Debug\net8.0-windows\Blackjack.runtimeconfig.json
+C:\Users\fabio\OneDrive\Área de Trabalho\Blackjack\Blackjack\bin\Debug\net8.0-windows\Blackjack.dll
+C:\Users\fabio\OneDrive\Área de Trabalho\Blackjack\Blackjack\bin\Debug\net8.0-windows\Blackjack.pdb
+C:\Users\fabio\OneDrive\Área de Trabalho\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.genruntimeconfig.cache
+C:\Users\fabio\OneDrive\Área de Trabalho\Blackjack\Blackjack\obj\Debug\net8.0-windows\ref\Blackjack.dll
+C:\Users\fabio\OneDrive\Área de Trabalho\Uninove\Segundo_Semestre\CSharp\Blackjack\Blackjack\bin\Debug\net8.0-windows\Blackjack.exe
+C:\Users\fabio\OneDrive\Área de Trabalho\Uninove\Segundo_Semestre\CSharp\Blackjack\Blackjack\bin\Debug\net8.0-windows\Blackjack.deps.json
+C:\Users\fabio\OneDrive\Área de Trabalho\Uninove\Segundo_Semestre\CSharp\Blackjack\Blackjack\bin\Debug\net8.0-windows\Blackjack.runtimeconfig.json
+C:\Users\fabio\OneDrive\Área de Trabalho\Uninove\Segundo_Semestre\CSharp\Blackjack\Blackjack\bin\Debug\net8.0-windows\Blackjack.dll
+C:\Users\fabio\OneDrive\Área de Trabalho\Uninove\Segundo_Semestre\CSharp\Blackjack\Blackjack\bin\Debug\net8.0-windows\Blackjack.pdb
+C:\Users\fabio\OneDrive\Área de Trabalho\Uninove\Segundo_Semestre\CSharp\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.frmJogo.resources
+C:\Users\fabio\OneDrive\Área de Trabalho\Uninove\Segundo_Semestre\CSharp\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.Properties.Resources.resources
+C:\Users\fabio\OneDrive\Área de Trabalho\Uninove\Segundo_Semestre\CSharp\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.csproj.GenerateResource.cache
+C:\Users\fabio\OneDrive\Área de Trabalho\Uninove\Segundo_Semestre\CSharp\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fabio\OneDrive\Área de Trabalho\Uninove\Segundo_Semestre\CSharp\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.AssemblyInfoInputs.cache
+C:\Users\fabio\OneDrive\Área de Trabalho\Uninove\Segundo_Semestre\CSharp\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.AssemblyInfo.cs
+C:\Users\fabio\OneDrive\Área de Trabalho\Uninove\Segundo_Semestre\CSharp\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.csproj.CoreCompileInputs.cache
+C:\Users\fabio\OneDrive\Área de Trabalho\Uninove\Segundo_Semestre\CSharp\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.sourcelink.json
+C:\Users\fabio\OneDrive\Área de Trabalho\Uninove\Segundo_Semestre\CSharp\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.dll
+C:\Users\fabio\OneDrive\Área de Trabalho\Uninove\Segundo_Semestre\CSharp\Blackjack\Blackjack\obj\Debug\net8.0-windows\refint\Blackjack.dll
+C:\Users\fabio\OneDrive\Área de Trabalho\Uninove\Segundo_Semestre\CSharp\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.pdb
+C:\Users\fabio\OneDrive\Área de Trabalho\Uninove\Segundo_Semestre\CSharp\Blackjack\Blackjack\obj\Debug\net8.0-windows\Blackjack.genruntimeconfig.cache
+C:\Users\fabio\OneDrive\Área de Trabalho\Uninove\Segundo_Semestre\CSharp\Blackjack\Blackjack\obj\Debug\net8.0-windows\ref\Blackjack.dll

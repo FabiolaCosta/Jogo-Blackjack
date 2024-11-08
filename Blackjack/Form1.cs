@@ -7,7 +7,6 @@
         {
             public string Nome { get; set; }
             public int Valor { get; set; }
-            public string Imagem { get; set; }
         }
 
         public class Baralho
@@ -34,8 +33,7 @@
                         cartas.Add(new Carta
                         {
                             Nome = valores[j] + "_" + naipes[i],
-                            Valor = pontos[j],
-                            Imagem = "Resources/" + valores[j] + "_" + naipes[i] + ".png"
+                            Valor = pontos[j]
                         });
                     }
                 }
@@ -101,28 +99,30 @@
             cartasJogador.Add(carta);
             pontosJogador = CalcularPontos(cartasJogador);
 
+            var imagem = (Image)Properties.Resources.ResourceManager.GetObject(carta.Nome);
+
             if (pbCartaJogador1.Image == null)
             {
-                pbCartaJogador1.Image = Image.FromFile(carta.Imagem);
+                pbCartaJogador1.Image = imagem;
             }
             else if (pbCartaJogador2.Image == null)
             {
-                pbCartaJogador2.Image = Image.FromFile(carta.Imagem);
+                pbCartaJogador2.Image = imagem;
                 pbCartaJogador2.BringToFront();
             }
             else if (pbCartaJogador3.Image == null)
             {
-                pbCartaJogador3.Image = Image.FromFile(carta.Imagem);
+                pbCartaJogador3.Image = imagem;
                 pbCartaJogador3.BringToFront();
             }
             else if (pbCartaJogador4.Image == null)
             {
-                pbCartaJogador4.Image = Image.FromFile(carta.Imagem);
+                pbCartaJogador4.Image = imagem;
                 pbCartaJogador4.BringToFront();
             }
             else
             {
-                pbCartaJogador5.Image = Image.FromFile(carta.Imagem);
+                pbCartaJogador5.Image = imagem;
                 pbCartaJogador5.BringToFront();
             }
 
@@ -134,26 +134,27 @@
             var carta = baralho.PuxarCarta();
             cartasDealer.Add(carta);
             pontosDealer = CalcularPontos(cartasDealer);
+            var imagem = (Image)Properties.Resources.ResourceManager.GetObject(carta.Nome);
 
             // Se for a primeira carta do dealer mostra normalmente
             if (cartasDealer.Count == 1)
             {
-                pbCartaDealer1.Image = Image.FromFile(carta.Imagem);
+                pbCartaDealer1.Image = imagem;
             }
             else if (cartasDealer.Count == 2 && cartaViradaDealer)
             {
                 // A segunda carta do dealer começa virada para baixo
-                pbCartaDealer2.Image = Image.FromFile("Resources/carta.png");
+                pbCartaDealer2.Image = Properties.Resources.carta; 
                 pbCartaDealer2.BringToFront();
             }
             else if (cartasDealer.Count == 3 )
             {
-                pbCartaDealer3.Image = Image.FromFile(carta.Imagem);
+                pbCartaDealer3.Image = imagem;
                 pbCartaDealer3.BringToFront();
             }
             else if (cartasDealer.Count == 4)
             {
-                pbCartaDealer4.Image = Image.FromFile(carta.Imagem);
+                pbCartaDealer4.Image = imagem;
                 pbCartaDealer4.BringToFront();
             }
 
@@ -199,7 +200,9 @@
         {
             // Revela a segunda carta do dealer
             cartaViradaDealer = false;
-            pbCartaDealer2.Image = Image.FromFile(cartasDealer[1].Imagem);
+            var imagem = (Image)Properties.Resources.ResourceManager.GetObject(cartasDealer[1].Nome);
+
+            pbCartaDealer2.Image = imagem;
             lblPontosDealer.Text = "Pontos Dealer: " + pontosDealer;
 
             // O dealer joga até ter 17 ou mais pontos
